@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "topcompat",
+  "version": "1.0.0",
+  "name": "Top Compat",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/topcompact/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.alphamode.topcompact.TopCompact"
+    ],
+    "top_plugin": [
+      "me.alphamode.topcompact.TOPPlugin"
+    ]
+  },
+  "mixins": [
+    "topcompact.mixins.json"
+  ]
+}
